@@ -193,6 +193,10 @@ section {
 .about .row .image img {
     width: 100%;
     animation: aboutImage 4s linear infinite;
+    width: 65%;
+    border-radius: 50%;
+    height: 40%;
+    /* width: 600px; */
 }
 
 @keyframes aboutImage {
@@ -282,9 +286,12 @@ section {
     border-radius: var(--border-radius-hover);
 }
 
+/* Images in box */
 .menu .box-container .box img {
     height: 8rem;
     margin-left: -6rem;
+    height: 150px;
+    border-radius: 50%;
 }
 
 .menu .box-container .box .content h3 {
@@ -298,6 +305,7 @@ section {
     color: var(--main-color);
     line-height: 1.8;
     padding: 1rem 0;
+    /* height: 150; */
 }
 
 .menu .box-container .box .content span {
